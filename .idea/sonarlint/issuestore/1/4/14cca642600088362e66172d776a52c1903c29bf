@@ -1,0 +1,15 @@
+
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8×ÅÀøÄ1
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ØÅÀøÄ1
+N
+java:S3599I",Use another way to initialize this instance.(°Şôşÿÿÿÿ8ÆÀøÄ1
+{
+java:S1171I"YMove the contents of this initializer to a standard constructor or to field initializers.(°Şôşÿÿÿÿ8”ÆÀøÄ1
+„
+java:S1128"bRemove this unused import 'com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBSaveExpression'.(§ô¬ûÿÿÿÿ8ìİÁ¦Å1
+}
+java:S1128	"[Remove this unused import 'com.amazonaws.services.dynamodbv2.model.ExpectedAttributeValue'.(Èâ…úÿÿÿÿ8íİÁ¦Å1
+Q
+java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëİüÿÿÿÿ8íİÁ¦Å1

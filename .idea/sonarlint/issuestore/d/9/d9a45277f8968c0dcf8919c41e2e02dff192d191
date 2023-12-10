@@ -1,0 +1,9 @@
+
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8îÄ¹úÄ1
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ğÄ¹úÄ1
+I
+java:S3599H",Use another way to initialize this instance.(íâÙÛ8‰Å¹úÄ1
+{
+java:S1171I"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8ŠÅ¹úÄ1
