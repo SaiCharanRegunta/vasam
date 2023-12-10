@@ -18,7 +18,7 @@ public class RecordingController {
         this.recordingService = recordingService;
     }
 
-    @CrossOrigin(origins = "http://localhost:8000")
+    @CrossOrigin(origins = "https://regunta.dev")
     @PostMapping(value = "/record")
     public Mono<ResponseEntity<RecordedResponse>> recordSentences(@RequestBody RecordRequest recordRequest) {
         return recordingService.recordSentenceForUser(recordRequest.getUserId(), recordRequest.getTranscript())

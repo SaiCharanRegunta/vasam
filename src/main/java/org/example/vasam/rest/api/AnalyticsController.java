@@ -20,7 +20,7 @@ public class AnalyticsController {
         this.analyticsService = analyticsService;
     }
 
-    @CrossOrigin(origins = "http://localhost:8000")
+    @CrossOrigin(origins = "https://regunta.dev")
     @GetMapping(value = "/frequent/phrase")
     public Mono<ResponseEntity<List<RecordedResponse>>> getFrequentPhrases(@RequestParam String userId) {
         return analyticsService.getCommonlyUsedPhraseByUserId(userId)
@@ -30,7 +30,7 @@ public class AnalyticsController {
                 ));
     }
 
-    @CrossOrigin(origins = "http://localhost:8000")
+    @CrossOrigin(origins = "https://regunta.dev")
     @GetMapping(value = "/frequent/words")
     public Mono<ResponseEntity<List<ComparisonResponse>>> getComparisons(@RequestParam String userId) {
         return analyticsService.getCommonlyUsedWords(userId)
